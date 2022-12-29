@@ -16,7 +16,7 @@
 1. **Clone Repo**
 
 ```
-git clone https://github.com/prayogimhd/ppdb-sekolah.git
+git clone https://github.com/prayogimhd/ppdb-ci4.git
 ```
 2. **Buka** Folder `cd ppdb-sekolah`
 3. **Buat Database** dan import `database.sql`

@@ -1,0 +1,50 @@
+/* ==============
+ Demo Only css
+===================*/
+
+.button-items {
+  .btn {
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+}
+
+.mfp-content{
+  .card{
+    box-shadow: none;
+  }
+}
+
+.bs-example-modal {
+  position: relative;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  display: block;
+}
+
+.icon-demo-content {
+  text-align: center;
+  color: $muted;
+
+  i{
+    display: block;
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: $gray-600;
+    transition: all 0.4s;
+  }
+
+  .col-md-4 {
+    margin-bottom: 30px;
+
+    &:hover {
+      i {
+        color: $primary;
+        transform: scale(1.5);
+      }
+    }
+  }
+}

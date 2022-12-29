@@ -1,0 +1,97 @@
+/* ==============
+  Widgets
+===================*/
+
+.widget-chart li {
+  width: 31.5%;
+  display: inline-block;
+  padding: 0;
+
+  i {
+    font-size: 22px;
+  }
+}
+
+// mini-stats
+
+.mini-stat-icon{
+  i{
+    font-size: 30px;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}
+
+.dashboard-ct-chart{
+  .ct-grid{
+    stroke: rgba(0, 0, 0, 0.05);
+  }
+}
+
+
+#slider-1{
+  height: 49px;
+}
+
+#slider-2{
+  height: 49px;
+}
+
+
+
+
+/* Activity */
+
+.activity-feed {
+  list-style: none;
+  .feed-item {
+      position: relative;
+      padding-bottom: 30px;
+      padding-left: 30px;
+      border-left: 2px solid $light;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -11px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 6px solid $primary;
+        background-color: $white;
+      }
+  }
+}
+
+
+.activity-feed{
+  .feed-item{
+    &:last-child {
+      border-color: transparent;
+    }
+  }
+}
+
+
+
+// Friends Suggestions
+
+
+.suggestion-icon{
+  i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: $white;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    background-color: $primary;
+    font-size: 15px;
+  }
+}

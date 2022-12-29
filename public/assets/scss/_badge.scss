@@ -1,0 +1,71 @@
+//Badge
+
+.badge {
+  font-weight: 500;
+}
+
+
+.badge-primary {
+  background-color: $primary;
+}
+
+.badge-success {
+  background-color: $success;
+}
+
+.badge-info {
+  background-color: $info;
+}
+
+.badge-warning {
+  background-color: $warning;
+  color: $white;
+}
+
+.badge-danger {
+  background-color: $danger;
+}
+
+.badge-dark {
+  background-color: $dark;
+}
+
+.badge-secondary {
+  background-color: $secondary;
+}
+
+// Badge soft
+.badge-soft-primary {
+  background-color: rgba($primary, 0.2);
+  color: $primary;
+}
+
+.badge-soft-success {
+  background-color: rgba($success, 0.2);
+  color: $success;
+}
+
+.badge-soft-info {
+  background-color: rgba($info, 0.2);
+  color: $info;
+}
+
+.badge-soft-warning {
+  background-color: rgba($warning, 0.2);
+  color: $warning;
+}
+
+.badge-soft-danger {
+  background-color: rgba($danger, 0.2);
+  color: $danger;
+}
+
+.badge-soft-dark {
+  background-color: rgba($dark, 0.2);
+  color: $dark;
+}
+
+.badge-soft-secondary {
+  background-color: rgba($secondary, 0.2);
+  color: $secondary;
+}

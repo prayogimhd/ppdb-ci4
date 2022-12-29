@@ -1,0 +1,71 @@
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active{
+		font-size: 12px;
+	}
+	.wizard > .steps .number {
+		font-size: 12px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.banner-sec{
+		padding-right: 15px;
+	}
+	.login-sec{
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.login-sec{
+		background: none;
+	}
+	.carousel-inner{
+		border-radius: 0;
+	}
+	.login-sec-bg{
+		border-radius: 0;
+		padding: 15px;
+	}
+}
+@media (max-width: 767px) {
+	.banner-sec{
+		padding-right: 15px;
+	}
+	.login-sec{
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.login-sec{
+		background: none;
+	}
+	.carousel-inner{
+		border-radius: 0;
+	}
+	.login-sec-bg{
+		border-radius: 0;
+		padding: 15px;
+	}
+}
+@media only screen and (min-width: 280px) and (max-width: 575px) {
+	.banner-sec{
+		padding-right: 15px;
+	}
+	.login-sec{
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.login-sec{
+		background: none;
+	}
+	.carousel-inner{
+		border-radius: 0;
+	}
+	.login-sec-bg{
+		border-radius: 0;
+		padding: 15px;
+	}
+}

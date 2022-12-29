@@ -1,0 +1,143 @@
+
+// pages
+
+
+// LOG-IN PAGE
+
+
+.home-btn {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    z-index: 1;
+}
+
+.accountbg {
+    background: url("../images/restaurant.png");
+    position: absolute;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+  
+  .wrapper-page {
+    margin: 7.5% auto;
+    width: 420px;
+    position: relative;
+  }
+
+  @media (max-width: 767px){
+    .wrapper-page {
+        width: 90%;
+    }
+  }
+
+
+// COUNDOWN PAGE 
+
+  .account-pages{
+    margin: 10.5% auto;
+    position: relative;
+  }
+
+  .comming-watch{
+    div {
+        display: inline-block;
+        .card{
+            margin: 0px 15px 15px 15px;
+            .countdown-num
+            {
+                font-weight: 600;
+                color: $primary;
+            }
+        }
+        span {
+            width: 150px;
+            display: block;
+            &:first-child {
+                height: 60px;
+                font-weight: 300;
+                font-size: 3em;
+                line-height: 48px;
+            }
+            &:last-child {
+                padding-top: 14px;
+                font-size: 0.9em;
+            }
+        }        
+    }
+  }
+
+  .coming-soon-search-form {
+    input {
+        padding: 15px 20px;
+        width: 100%;
+        color: $gray-800;
+        border: 2px solid $gray-200;
+        outline: none !important;
+        padding-right: 180px;
+        padding-left: 30px;
+        border-radius: 30px;
+    }
+    button {
+        position: absolute;
+        top: 7px;
+        right: 8px;
+        outline: none !important;
+        border-radius: 30px;
+        padding: 9px 30px;
+    }
+    form {
+        position: relative;
+        max-width: 600px;
+        margin: 0px auto;
+    }
+}
+
+// FAQ PAGE
+
+
+.faq-box{
+  border-left: 3px solid;
+}
+
+
+
+// ERROR PAGE
+
+.error-bg{
+  background: url("../images/error.png");
+  position: absolute;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.error-page { 
+	text-transform: uppercase;
+	background: repeating-linear-gradient(
+  45deg,
+  $primary ,
+  $primary  10px,
+  $success  10px,
+  $success  20px
+);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 110px;
+	line-height: .7;
+	position: relative;
+}
+
+
+// MAINTENANCE PAGE
+
+.maintenance-img{
+  img {
+    max-width: 320px;
+  }
+}
+
+

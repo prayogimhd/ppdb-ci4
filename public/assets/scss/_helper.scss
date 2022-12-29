@@ -1,0 +1,150 @@
+/* ==============
+  Helper Classes
+===================*/
+
+.m-b-5 {
+  margin-bottom: 5px;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.m-b-15 {
+  margin-bottom: 15px;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.m-b-30 {
+  margin-bottom: 30px;
+}
+.m-b-40 {
+  margin-bottom: 40px;
+}
+
+
+.m-t-5 {
+  margin-top: 5px;
+}
+.m-t-10 {
+  margin-top: 10px;
+}
+.m-t-15 {
+  margin-top: 15px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.m-t-30 {
+  margin-top: 30px;
+}
+.m-t-40 {
+  margin-top: 40px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}
+
+.w-30{
+  max-width: 30px;
+}
+.w-xs {
+  min-width: 80px;
+}
+.w-sm {
+  min-width: 95px;
+}
+.w-md {
+  min-width: 110px;
+}
+.w-lg {
+  min-width: 140px;
+}
+
+.l-h-23{
+  line-height: 23px;
+}
+.l-h-34 {
+  line-height: 34px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+.font-15 {
+  font-size: 15px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-22{
+  font-size: 22px;
+}
+.font-24{
+  font-size: 24px;
+}
+.font-30{
+  font-size: 30px;
+}
+.font-32{
+  font-size: 32px;
+}
+
+.thumb-sm {
+  height: 32px;
+  width: 32px;
+}
+.thumb-md {
+  height: 48px;
+  width: 48px;
+}
+.thumb-lg {
+  height: 88px;
+  width: 88px;
+}
+
+.font-500{
+  font-weight: 500;
+}
+
+.font-600{
+  font-weight: 600;
+}
+
+
+.header-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+// rating 
+.rating-symbol-foreground{
+  top: 0px;
+}
+
+.sub-title {
+  margin-bottom: 25px;
+  color: $gray-500;
+}
+
+.bg-pattern{
+  background-image: url("../images/bg-pattern.png");
+  background-size: cover;
+  background-position: bottom;
+}

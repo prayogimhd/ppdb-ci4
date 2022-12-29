@@ -1,0 +1,43 @@
+// PRICING PAGE
+  
+
+.pricing-box {
+  padding: 30px;
+  position: relative;
+  .pricing-icon {
+      i {
+          width: 54px;
+          height: 54px;
+          border-radius: 50%;
+          text-align: center;
+          color: $white;
+          font-size: 24px;
+          line-height: 56px;
+          top: -25px;
+          position: absolute;
+          display: inline-block;
+          margin: 0 auto;
+          left: 0px;
+          right: 0px;
+      }
+  }
+  .pricing-features {
+      padding-left: 20px;
+  }
+  .pricing-plan {
+      sup {
+          font-size: 26px;
+          position: relative;
+          top: -18px;
+      }
+  }
+  .pricing-border {
+      border-top: 1px solid $light;
+      margin: 0 auto;
+      border-bottom: 1px solid $light;
+      padding: 5px;
+  }
+  .pricing-features {
+      padding-left: 20px;
+  }
+}

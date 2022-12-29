@@ -1,0 +1,68 @@
+/* =============
+   Alerts
+============= */
+
+.alert {
+  position: relative;
+  border: 0;
+  .alert-link {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+}
+
+.alert-primary {
+  color: $white;
+  background-color: $primary;
+  hr {
+    border-top-color: darken($primary,10%);
+  }
+}
+
+.alert-success {
+  color: $white;
+  background-color: $success;
+  hr {
+    border-top-color: darken($success,10%);
+  }
+}
+
+.alert-danger {
+  color: $white;
+  background-color: $danger;
+  hr {
+    border-top-color: darken($danger,10%);
+  }
+}
+
+.alert-warning {
+  color: $white;
+  background-color: $warning;
+  hr {
+    border-top-color: darken($warning, 10%);
+  }
+}
+
+.alert-info {
+  color: $white;
+  background-color: $info;
+  hr {
+    border-top-color: darken($info,10%);
+  }
+}
+
+.alert-secondary {
+  color: $white;
+  background-color: $secondary;
+  hr {
+    border-top-color: darken($secondary,10%);
+  }
+}
+
+.alert-dark {
+  color: $white;
+  background-color: $dark;
+  hr {
+    border-top-color: darken($dark,10%);
+  }
+}

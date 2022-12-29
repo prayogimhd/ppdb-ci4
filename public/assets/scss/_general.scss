@@ -1,0 +1,76 @@
+/* ==============
+  General
+===================*/
+
+body {
+  background-repeat: repeat;
+  background: $bg-body;
+  font-family: $font-family;
+  color: $body-color;
+  font-size: $base-font;
+}
+
+@media (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-family: $font-family-secondary;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p{
+  line-height: 1.7;
+}
+
+svg {
+  max-width: 100%;
+}
+
+* {
+  outline: none !important;
+}
+
+a {
+  color: $gray-600;
+
+  &:hover, &:active, &:focus {
+    outline: 0;
+    text-decoration: none;
+  }
+}
+
+b, strong {
+  font-weight: 500;
+}
+
+.container-alt {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#wrapper {
+  height: $height;
+  overflow: hidden;
+  width: $width;
+}
+
+// Slimscroll
+.slimScrollDiv {
+  height: auto !important;
+}
+

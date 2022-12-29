@@ -12,6 +12,13 @@
 
 <img src="ujian.png" />
 
+## Login Admin
+
+- Username: admin
+- Password: admin
+
+---
+
 ## Cara Install
 1. **Clone Repo**
 

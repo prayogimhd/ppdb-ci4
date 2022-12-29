@@ -25,7 +25,7 @@
 ```
 git clone https://github.com/prayogimhd/ppdb-ci4.git
 ```
-2. **Buka** Folder `cd ppdb-sekolah`
+2. **Buka** Folder `cd ppdb-ci4`
 3. **Buat Database** dan import `database.sql`
 4. **Set up `.env`**
 

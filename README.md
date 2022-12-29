@@ -41,6 +41,6 @@ database.default.DBDriver = MySQLi
 ```bash
 php spark serve
 ```   
-6. **Server Berjalan** `http://127.0.0.1:8080/`
+6. **Server Berjalan** `localhost:8080`
 
 <p style="color:yellow">Jangan lupa bintangnya ⭐<p>

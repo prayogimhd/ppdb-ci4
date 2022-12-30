@@ -4,7 +4,7 @@
 
 <img src="admin.png" />
 
-## Profile Sekolah
+## Profile
 
 <img src="profile.png" />
 
@@ -16,6 +16,10 @@
 
 - Username: admin
 - Password: admin
+
+**Login Admin** `localhost:8080/login`
+
+**Siswa** `localhost:8080/ppdb`
 
 ---
 
